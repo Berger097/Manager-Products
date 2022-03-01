@@ -35,7 +35,7 @@ public class ProductManager {
             if (smartphone.getName().contains(search)) {
                 return true;
             }
-            if (smartphone.getManufacturer().equalsIgnoreCase(search)) {
+            if (smartphone.getManufacturer().contains(search)) {
                 return true;
             }
         }
